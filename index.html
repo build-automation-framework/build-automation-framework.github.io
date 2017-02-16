@@ -1,0 +1,22 @@
+ <!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body background="grunge-paper.jpg">
+
+<table align="center" width="700px">
+<tr><td>
+
+<h1><strong>About me</strong></h1>
+<p>Hey guys , my name is Cvetan Karchev and I'm from Bulgaria. I'm a QA Automation Lead and I'm educating young talents to became automation engineers in IT Academy. <br /><br />I decided to share my automation framework with everybody, so I can help others to learn how to do it. In your lifetime it comes time to give something back. Through so many years I've learned so much and now I want to give something back to the society. All I want from you is to do the same when the time comes. </p>
+<h1><strong>How to build automation framework with cucumber-jvm</strong></h1>
+<p>Check out this repo :<a href="https://github.com/shtraker/AutomationFrameworkWithCucumberJvm"> <strong>https://github.com/shtraker/AutomationFrameworkWithCucumberJvm</strong></p></a>
+<p>This is Ready to Use Automation Framework with Cucumber-Jvm , Junit and Selenium.<br /><br />For building the project I use Maven, you need to install it and configure it on your system, also Java JDK and Git.<br /><br />Choose where you want to put this project on your PC, go to this directory with the shell and execute<br /><br /><strong>git clone https://github.com/shtraker/AutomationFrameworkWithCucumberJvm</strong><br /><br />You will need Docker and to run a container for the Selenium Server. <br /><br />Check out this : <br /><br /><strong>https://github.com/SeleniumHQ/docker-selenium</strong><br /><br />I use this image for creating container: <br /><br /><strong>docker run -v -d -p 4000:4444 -p 5000:5900 selenium/standalone-firefox-debug:2.53.0</strong> <br /><br /><br /><strong>Structure of the Automation Framework</strong> <br /><br /><strong>Package &ndash; pageobjects &ndash;</strong> contains classes for all page objects on a page, use different classes for different pages.<br /><br /><strong>Package &ndash; steps&nbsp; -</strong> contains all classes for cucumber steps, use different classes and combine the steps by functionality.<br /><br /><strong>Package &ndash; tools &ndash;</strong> here are all classes that contains the core functionality. <br /><br /><strong>DebugTestRunner &ndash;</strong> this class runs only one specific scenario , this is used for debug and develop new scenarios.<br /><br /><strong>RunTestInParallel &ndash;</strong> runs all test scenarios in parallel , but first generate Junit Classes for every cucumber scenario.<br /><br />Features directory contains all cucumber feature files. You can put them in different directories and etc. </p>
+
+</td>
+</tr>
+</table>
+
+</body>
+</html> 
